@@ -5,10 +5,11 @@ import { HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import { SimpleHttpComponent } from './simple-http/simple-http.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent, HelloComponent, SimpleHttpComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
